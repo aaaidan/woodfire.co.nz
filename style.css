@@ -1,0 +1,107 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    color: #444;
+    font-size: 18px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.l-main {
+    max-width: 34em;
+    margin: auto;
+}
+
+a {
+    color: #ff3300;
+    text-decoration: none;
+}
+
+header {
+    text-align:center;
+}
+header h1 {
+    font-size: 1em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+
+header h1, p {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.lede {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding: 0 1em;
+    background: #b5300f;
+    margin-bottom: 1em;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    padding: 0.5em 1em;
+}
+
+@media screen and (min-width:540px) {
+    .lede {
+        margin: 0 2em;
+        border-radius: 0.15em;
+    }
+}
+
+.contact {
+    background: #e8e8e8;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.34), 0 0px 0px 1px rgb(255, 255, 255) inset;
+    border: 1px solid #e8e8e8;
+    border-radius: 0.2em;
+    padding: 1.5em;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.2em;
+    display: block;
+    max-width: 270px;
+    width: 100%;
+    margin: 2em auto;
+}
+
+.footer {
+    margin-top: 4em;
+    background: url(img/fire.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 5em;
+    box-shadow: 0 20px 20px -10px rgba(0, 0, 0, 0.35) inset;
+}
+
+@media screen and (min-width:600px) and (min-height:850px) {
+    .contact-repeat {
+        display:none;
+    }
+}
+
+.benefits {
+    background: #cef;
+    list-style: none;
+    color: #0084db;
+    border: 1px solid #0084db;
+    text-align: center;
+    max-width: 18em;
+    border-radius: 0.4em;
+    padding: 0.8em;
+    margin: 2em auto;
+}
+
+.benefits li {
+    margin: 0.8em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
