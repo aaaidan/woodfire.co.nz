@@ -44,11 +44,12 @@ header h1, p {
     text-align: center;
     margin: 0;
     padding: 0 1em;
-    background: #b5300f;
+    background: #c5492b;
     margin-bottom: 1em;
     color: white;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
     padding: 0.5em 1em;
+    line-height: 1.2;
 }
 
 @media screen and (min-width:540px) {
